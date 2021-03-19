@@ -53,9 +53,4 @@ function browserVerify() {
     }
 }
 
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.getElementById('header-mobile-2').style.display = "none";
-  document.getElementById('header-mobile-2-logo').style.backgroundImage = "url(imagens/logo/logo-dark.jpg);"
-}
-
 

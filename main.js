@@ -1,7 +1,7 @@
-window.onload = (function () {
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("conteudo").style.display = "inherit";
-})
+// window.onload = (function () {
+//     document.getElementById("loading").style.display = "none";
+//     document.getElementById("conteudo").style.display = "inherit";
+// })
 
 
 function rolar(){
@@ -52,10 +52,5 @@ function browserVerify() {
         //   alert('unknown');
     }
 }
-
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.getElementById('header-mobile-2').style.backgroundColor = "black";
-  document.getElementById('header-mobile-2-logo').style.backgroundImage = "url(imagens/logo/logo-dark.jpg)";
-};
 
 

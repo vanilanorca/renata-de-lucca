@@ -535,6 +535,14 @@ a i:hover{
         display: none;
     }
 
+    .content-skills{
+        max-width: 85%;
+    }
+
+    .descricao .container{
+        max-width: 80%;
+    }
+
     .content-1-1 .bloco-1{
         background: #703B3D;
         width: 100vw;

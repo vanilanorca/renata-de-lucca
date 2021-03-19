@@ -1,7 +1,7 @@
-// window.onload = (function () {
-//     document.getElementById("loading").style.display = "none";
-//     document.getElementById("conteudo").style.display = "inherit";
-// })
+window.onload = (function () {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("conteudo").style.display = "inherit";
+})
 
 
 function rolar(){

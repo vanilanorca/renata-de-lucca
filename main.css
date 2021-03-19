@@ -570,11 +570,19 @@ a i:hover{
     }
 
     .content-3{
-        height: 100px;
+        height: 120px;
     }
 
     .content-3 .container i{
         font-size: 30px;
+    }
+
+    .content-3 .container i{
+        font-size: 45px;
+    }
+
+    footer p {
+        font-size: 8px;
     }
 }
 

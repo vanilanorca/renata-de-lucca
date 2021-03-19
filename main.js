@@ -52,3 +52,9 @@ function browserVerify() {
         //   alert('unknown');
     }
 }
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  document.getElementById('header-mobile-2').style.backgroundColor = "#eee";
+  document.getElementById('logo').style.backgroundColor = "#eee";
+}
+

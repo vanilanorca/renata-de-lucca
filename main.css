@@ -504,9 +504,13 @@ a i:hover{
         background: #F7F7F7;
     }
 
-    .only-mobile-logo img{
+    .only-mobile-logo .img{
         width: 95px;
         height: 95px;
+        background-image: url(imagens/logo/logo.png);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .content-1{

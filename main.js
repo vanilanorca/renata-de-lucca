@@ -54,7 +54,8 @@ function browserVerify() {
 }
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.getElementById('header-mobile-2').style.backgroundColor = "#eee";
-  document.getElementById('logo').style.backgroundColor = "#eee";
+  document.getElementById('header-mobile-2').style.backgroundColor = "black";
+  document.getElementById('only-mobile-logo-img').style.backgroundImage = "url(imagens/logo/logo-dark.jpg)";
 }
+
 

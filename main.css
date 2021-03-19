@@ -156,17 +156,9 @@ body{
     font-size: 16px;
     line-height: 50px;
     position: relative;
-}
-.content-skills p:after{
-    position: absolute;
-    content: "";
-    width: 60%;
-    left: 50%;
-    top: 48px;
     border-width: 0 0 2px;
     border-style: solid;
     border-color: #c86568a2;
-    transform: translateX(-50%);
 }
 
 .descricao{
@@ -537,6 +529,14 @@ a i:hover{
 
     .content-skills{
         max-width: 85%;
+    }
+
+    .content-skills h1{
+        margin-bottom: 25px;
+    }
+
+    .content-skills p{
+        margin-bottom: 60px;
     }
 
     .descricao .container{

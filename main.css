@@ -478,6 +478,10 @@ a i:hover{
     }
 
     .header-mobile-2 .logo{
+        background-image: url(imagens/logo/logo.png);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 200px;
         height: 200px;
         animation: partedois, logo-pulsa-2;

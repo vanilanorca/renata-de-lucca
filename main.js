@@ -42,6 +42,7 @@ function browserVerify() {
     {
         document.getElementById("main-site").style.display = 'none';
         document.getElementById("not-suported").style.display = 'block';
+        // alert('internet explorer')
     }
     else if (navigator.userAgent.indexOf("Safari") != -1) {
         document.getElementById("main-site").style.display = 'none';

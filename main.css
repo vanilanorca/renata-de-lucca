@@ -590,6 +590,29 @@ a i:hover{
     }
 }
 
+@media (max-height: 676px){
+    .header-mobile .foto-perfil{
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-mobile-1 h1{
+    font-size: 35px;
+    }
+
+    .header-mobile-2 .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-mobile-2 i{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    
+}
+
 #not-suported a:hover{
     color: blue;
 }

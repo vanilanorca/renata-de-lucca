@@ -411,13 +411,29 @@ a i:hover{
         background: #eeeeee;
     }
 
-    .header-mobile-1{
+    /* .header-mobile-1{
         background: #934D4F;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 50%;
+        height: 50%; 
+    } */
+    .header-mobile-1-atualizado{
+        background: #eee;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .header-mobile-1-atualizado .logo{
+        width: 100%;
+        max-width: 70%;
+    }
+    .header-mobile-1-atualizado .scroll-page i{
+        color: #6d3638;
+        font-size: 40px;
     }
 
     .header-mobile .foto-perfil{

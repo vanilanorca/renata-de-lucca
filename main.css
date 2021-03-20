@@ -445,12 +445,14 @@ a i:hover{
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-
-    animation: fotomobile 3s;
     }
     @keyframes fotomobile {
         0% {transform: translateY(-500px);};
         100% {transform: translateY();}
+    }
+
+    .animation{
+        animation: fotomobile 3s;
     }
 
     .header-mobile-1 h1{
